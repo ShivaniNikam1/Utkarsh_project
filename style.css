@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ff0062;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.container {
+    width: 50%;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-family: 'Source Serif Pro', serif;
+
+}
+
+img {
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 1px;
+}
+
+.call {
+    margin-left: 33px;
+}
+
+.boxes {
+    display: flex;
+}
+
+.box1 {
+    background-color: #450c35;
+    color: white;
+    /* width: 70%;
+    /* top (left right) bottom */
+    /* margin: auto; 
+    margin-top: 80px;
+    margin-bottom: 80px;
+    height: 90%;  */
+    /* flex-basis: 60%; */
+    padding: 40px 0px 40px 0px;
+    width: 40%;
+}
+
+.box1 p {
+    padding: 15px;
+    line-height: 30px;
+}
+
+.details p {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.details h6 {
+    font-size: 1rem;
+    margin-left: 33px;
+    margin-top: 17px;
+}
+
+.box2 {
+    background-color: white;
+    /* flex-basis: 40%; */
+    /* width: 40%; */
+    /* margin-left: 520px; */
+    padding: 40px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.column {
+    height: 51.5px;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(203, 203, 203);
+    outline: none;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+#Subject {
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    outline: none;
+    border: 1px solid rgb(203, 203, 203);
+    padding: 5px;
+    margin-top: 10px;
+    box-sizing: border-box;
+
+}
+
+.hello {
+    margin-top: 22px;
+}
+
+button {
+    padding: 10px;
+    background-color: #ff0062;
+    color: white;
+    border: 1px solid hsl(337, 100%, 50%);
+    border-radius: 15px;
+    margin: 20px;
+    margin-left: 0px;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1rem;
+
+}
